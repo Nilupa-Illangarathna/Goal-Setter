@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "310268627322",
+    "project_id": "goal-setting-501c2",
+    "storage_bucket": "goal-setting-501c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310268627322:android:65a3f08ea1dac064596ec3",
+        "android_client_info": {
+          "package_name": "com.example.goal_setting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGQu0wVDc3hAGUdHeZvvM3TJRlYehpyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

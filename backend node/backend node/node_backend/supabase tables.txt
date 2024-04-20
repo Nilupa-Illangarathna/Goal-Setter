@@ -1,0 +1,30 @@
+
+////////// User authentication/////////////
+CREATE TABLE GoalKeepingApp_Users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    mobile VARCHAR(20) UNIQUE NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
+
+
+////////// otp Queue storage //////////////
+CREATE TABLE GoalKeepingApp_otpData (
+    id SERIAL PRIMARY KEY,
+    method VARCHAR(20) NOT NULL,
+    contact VARCHAR(100) NOT NULL,
+    OTP VARCHAR(20) NOT NULL
+);
+
+
+////////// Unique Id storage //////////////
+CREATE TABLE goalkeepingapp_users_ids (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255),
+    password VARCHAR(255),
+    uuid text
+);
+
